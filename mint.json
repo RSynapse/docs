@@ -2,16 +2,16 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark__.svg",
+    "light": "/logo/light__.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon__.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#1f2527",
     "light": "#07C983",
-    "dark": "#0D9373",
+    "dark": "#1f2527",
     "anchors": {
-      "from": "#0D9373",
+      "from": "#1f2527",
       "to": "#07C983"
     }
   },
