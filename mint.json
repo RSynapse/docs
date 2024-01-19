@@ -1,68 +1,72 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Narrative Buddy Docs",
   "logo": {
     "dark": "/logo/dark__.svg",
     "light": "/logo/light__.svg"
   },
   "favicon": "/favicon__.svg",
   "colors": {
-    "primary": "#1f2527",
+    "primary": "#3700ff",
     "light": "#07C983",
-    "dark": "#1f2527",
+    "dark": "#3700ff",
     "anchors": {
-      "from": "#1f2527",
+      "from": "#3700ff",
       "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Narrative Buddy",
-    "url": "https://narrative-buddy.com"
-  },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.narrative-buddy.com/introduction"
     },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/xQcZC3G4nV"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://blogs.narrative-buddy.com/"
+    "background": {
+      "light": "#ffffff",
+      "dark": "#191E24"
     }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/chatting",
-        "essentials/statementbank",
-        "essentials/storage",
-        "essentials/settings"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+},
+"topbarLinks": [
+  {
+    "name": "Support",
+    "url": "mailto:hi@mintlify.com"
   }
+],
+"topbarCtaButton": {
+  "name": "Narrative Buddy",
+  "url": "https://narrative-buddy.com"
+},
+"anchors": [
+  {
+    "name": "Documentation",
+    "icon": "book-open-cover",
+    "url": "https://docs.narrative-buddy.com/introduction"
+  },
+  {
+    "name": "Community",
+    "icon": "discord",
+    "url": "https://discord.gg/xQcZC3G4nV"
+  },
+  {
+    "name": "Blog",
+    "icon": "newspaper",
+    "url": "https://blogs.narrative-buddy.com/"
+  }
+],
+"navigation": [
+  {
+    "group": "Get Started",
+    "pages": [
+      "introduction",
+      "quickstart"
+    ]
+  },
+  {
+    "group": "Essentials",
+    "pages": [
+      "essentials/chatting",
+      "essentials/statementbank",
+      "essentials/storage",
+      "essentials/settings"
+    ]
+  }
+],
+"footerSocials": {
+  "twitter": "https://twitter.com/mintlify",
+  "github": "https://github.com/mintlify",
+  "linkedin": "https://www.linkedin.com/company/mintsearch"
+}
 }
